@@ -1,0 +1,22 @@
+{
+	"name": "Toffee",
+	"description": "This is a Google chrome web application, based on yupoo.com API. Basically it's your homepage at yupoo, with other functions.",
+	"version": "0.0.0.1",
+	"app": {
+		"launch": {
+			"local_path": "toffee.html"
+		}
+	},
+	"icons": {
+		"16": "/images/icon_16.png",
+		"32": "/images/icon_32.png",
+		"64": "/images/icon_64.png",
+		"128": "/images/icon_128.png",
+		"256": "/images/icon_256.png",
+		"512": "/images/icon_512.png"
+	},
+	"permissions": [
+		"tabs",
+		"http://*.yupoo.com/"
+	]
+}
